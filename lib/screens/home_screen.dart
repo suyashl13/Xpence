@@ -117,7 +117,6 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
       child: Scaffold(
           backgroundColor: Colors.white,
-          resizeToAvoidBottomPadding: false,
           resizeToAvoidBottomInset: false,
           body: budgetIsSet
               ? screens[_currentIndex]

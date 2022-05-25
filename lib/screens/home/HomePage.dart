@@ -297,7 +297,6 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
       backgroundColor: Color.fromRGBO(245, 244, 250, 1),
       appBar: AppBar(
         title: Center(

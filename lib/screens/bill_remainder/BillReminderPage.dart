@@ -275,7 +275,6 @@ class _BillReminderPageState extends State<BillReminderPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         resizeToAvoidBottomInset: true,
-        resizeToAvoidBottomPadding: true,
         backgroundColor: Color.fromRGBO(86, 35, 73, 1),
         appBar: AppBar(
           elevation: 0.00,
